@@ -1,0 +1,32 @@
+# Go to any empty directory
+
+# To initiate git 
+git init
+
+# Step1 : Create a file name test.txt and add 1 line
+
+#Step2 : To add the file to git staging phase
+git add .
+
+# Step 3: To commit the changes
+git commit -m "First line is added"
+
+# Repeat step 1,2 and 3 by adding 2nd and 3rd line (make sure commit messgae you are changing)
+
+# to see commit history
+ git log --oneline
+
+# Go to github and create new repository
+
+# rename the local branch name
+git branch -M main
+
+# add remote repository
+git remote add origin <<URL of github repo>>
+
+# Push the changes
+git push origin main
+
+# go to github and verify if changes are there and explore the github to check commit history and files at particuler commits
+
+
