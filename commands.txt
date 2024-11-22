@@ -29,4 +29,12 @@ git push origin main
 
 # go to github and verify if changes are there and explore the github to check commit history and files at particuler commits
 
+# now go back to local termainal and run below command
+git log --oneline
+
+# copy the commit id of second commit
+
+# Checkout to the second code (here your test.txt will get changes, keep your eye on it)
+git checkout <<second_commit_id>>
+
 
